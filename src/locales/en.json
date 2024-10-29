@@ -1,0 +1,112 @@
+{
+  "discover": "Discover this project",
+  "home": "Profile",
+  "welcome": "Welcome",
+  "skills": "Skills",
+  "interests": "Interests",
+  "achievements": "Achievements",
+  "educations": "Educations",
+  "work_experience": "Work Experiences",
+  "work_experience_1": "Work",
+  "work_experience_2": "Experiences",
+  "profile": "With 6 years of experience as a team leader on the Boeing E3-F AWACS in the air force, I am a meticulous and dynamic professional.\n\nNow based in Auvergne-Rhône-Alpes and recently graduated in web and mobile development, I leverage my skills to develop innovative solutions in the IT field.",
+  "job": "Application Developer",
+  "learn_more": "Learn more",
+  "hide": "Hide",
+  "what_did_i_do": "What did I do on this project ?",
+  "skills_list": {
+    "javascript": "JavaScript",
+    "react_native": "React / React Native with PropTypes",
+    "css_frameworks": "CSS and CSS Frameworks: Tailwind, Bootstrap",
+    "ecommerce": "E-commerce site development with Sylius and Symfony",
+    "docker": "Use of Docker",
+    "graphql": "GraphQL API consumption",
+    "rest_api": "REST API consumption",
+    "git": "Source code management with Git",
+    "figma": "User interface design with Figma",
+    "php": "Basics in PHP",
+    "node": "Basics in Node.js with Express for back-end development",
+    "expo": "Using Expo to create mobile applications\nand publish them on Android and Apple stores",
+    "rocket" :"Teamwork, dynamism and autonomy"
+  },
+  "achievements_list": {
+    "swipeat": {
+      "resume": "SwipEat is a mobile app available on iOS and Android dedicated to recipe sharing. Users can publish their own culinary creations and follow other cooks for inspiration\n\nAt Odeven, I developed this app using React Native for the mobile component and React for the back-office",
+      "content": "swipeat content",
+      "skill1": "Use of React Native with Expo for the mobile app, including useContext for state management, routing, and authentication",
+      "skill2": "Implementation of a Scroll & Swipe user experience, primarily with React Native Reanimated",
+      "skill3": "Creation of custom components without using libraries",
+      "skill4": "Headless application: use of Docker for microservices and integration of a GraphQL API with its hooks",
+      "skill5": "Source code management and versioning with GitLab, including the use of Git and Apple and Google development platforms",
+      "skill6": "Development of the back-office with React",
+      "skill7": "Use of Figma to design the back-office layout",
+      "skill8": "Implementation of PropTypes",
+      "skill9": "Work in Agile SCRUM methodology"
+    },
+    "heb": {
+      "resume": "An e-commerce site developed with Sylius, a Symfony framework dedicated to building online commerce platforms. This project, completed in collaboration with Odeven, required the creation of a custom module for configuring various products\n\nAdditionally, I integrated a translator into the back-office to facilitate multilingual information translation",
+      "content": "heb content",
+      "skill1": "Project developed with Sylius, Symfony framework",
+      "skill2": "Use of Twig",
+      "skill3": "Customization of Symfony and Sylius templates, forms, etc.",
+      "skill4": "Use and customization of Sylius components",
+      "skill5": "Creation of a custom product module allowing users to create their own product",
+      "skill6": "Development of a translation plugin integrated with the DeepL API, enabling the admin to translate product information with one click",
+      "skill7": "Product cloning setup",
+      "skill8": "Payment gateway with PayPal, bank card, or installment payment",
+      "skill9": "Use of Tailwind",
+      "skill10": "Work in Agile SCRUM methodology"
+    },
+    "pokemon": {
+      "title": "Pokémon Mini-Game",
+      "resume": "This mini-game is a personal project still in development, aimed at guessing the names of presented Pokémon. Once the name is guessed, the player can catch the Pokémon by throwing a Pokéball. If the Pokémon is caught, it is added to our Pokédex. The challenge is clear: Catch them all!\n\nThis mini-game is developed in React Native for the mobile component, while Node.js with Express is used for authentication and Pokédex data management",
+      "content": "pokemon content",
+      "skill1": "Personal project with React Native and Expo",
+      "skill2": "Backend development with Node.js and Express for authentication and data storage",
+      "skill3": "Use of MongoDB and Mongoose",
+      "skill4": "Creation of mockups with Figma",
+      "skill5": "Use of GestureHandler for the Pokémon capture mini-game",
+      "skill6": "Translation of the app into French and English",
+      "skill7": "Consumption of Rest APIs to retrieve Pokémon information",
+      "skill8": "Implementation of PropTypes"
+    }
+  },
+  "experiences": {
+    "developer": {
+      "title": "Web and Mobile Developer",
+      "task1": "Development of custom mobile and web applications",
+      "task2": "Design of e-commerce sites"
+    },
+    "network_technician": {
+      "title": "Network and Telecommunications Technician",
+      "task1": "Implementation of video protection and security systems"
+    },
+    "air_force_technician": {
+      "title": "Communication, Navigation and Surveillance Technician",
+      "task1": "Team leader supervising 4 to 6 people",
+      "task2": "Commissioning and maintenance of the mission system on 'AWACS' (Airborne Warning and Control System aircraft)"
+    },
+    "it_technician": {
+      "title": "IT Technician",
+      "task1": "Implementation and maintenance of IT networks and systems"
+    }
+  },
+  "educations_list": {
+    "bac_plus_3": {
+      "title": "BAC +3 - Application Developer",
+      "task1": "Application development training"
+    },
+    "major_promotion": {
+      "title": "Major of promotion in communication systems specialist training",
+      "task1": "Specialization in communication, navigation, and surveillance systems"
+    },
+    "bts": {
+      "title": "BTS Management - System Administrator",
+      "task1": "System and network administration training"
+    },
+    "bac": {
+      "title": "Scientific and Technical Baccalaureate - Electronics",
+      "task1": "Electronics and technical training"
+    }
+  }
+}

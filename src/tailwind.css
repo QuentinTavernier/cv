@@ -1,0 +1,213 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-blue: #191439;
+        --color-purple: rgba(94, 23, 235, 1);
+        --color-opaque-purple: rgba(94, 23, 235, 0.75);
+        --color-grey: rgba(18, 18, 18, 1);
+        --color-opaque-black: rgba(18, 18, 18, 0.50);
+        --color-beige: rgba(235, 232, 220, 1);
+        --color-opaque-white: rgba(255, 255, 255, 0.75);
+        --color-yellow: rgba(255, 211, 0, 1);
+        --color-golden: rgba(218, 165, 32, 1);
+        --color-moon: rgba(204, 204, 221, 1)
+    }
+}
+
+@layer components {
+    body {
+        @apply m-0 font-open bg-beige dark:bg-grey;
+    }
+
+    h1, h2, h3, h4, button {
+        @apply font-montserrat text-blue dark:text-white;
+    }
+
+    button:hover  {
+        @apply opacity-80 font-montserrat disabled:opacity-100;
+    }
+
+    .d-flex-row {
+        @apply flex flex-row
+    }
+
+    .d-flex-col {
+        @apply flex flex-col
+    }
+
+    .center-center {
+        @apply justify-center items-center;
+    }
+
+    .start-center {
+        @apply justify-start items-center;
+    }
+
+    .end-center {
+        @apply justify-end items-center;
+    }
+
+    .center-start {
+        @apply justify-center items-start;
+    }
+
+    .center-end {
+        @apply justify-center items-end;
+    }
+
+    .start-start {
+        @apply justify-start items-start;
+    }
+
+    .start-end {
+        @apply justify-start items-end;
+    }
+
+    .end-start {
+        @apply justify-end items-start;
+    }
+
+    .end-end {
+        @apply justify-end items-end;
+    }
+
+    .between-center {
+        @apply justify-between items-center;
+    }
+
+    .around-center {
+        @apply justify-around items-center;
+    }
+
+    .between-start {
+        @apply justify-between items-start;
+    }
+
+    .between-end {
+        @apply justify-between items-end;
+    }
+
+    .container {
+        @apply max-w-screen-xl mx-auto px-6
+    }
+
+    .p-text {
+        @apply normal-case text-sm md:text-base text-blue dark:text-white whitespace-pre-line
+    }
+
+    .content-section {
+        @apply min-h-screen py-20 md:py-24
+    }
+
+    .tag {
+        @apply flex items-center justify-center px-2 py-1 bg-purple w-fit rounded-2xl text-sm md:text-base;
+    }
+
+    .card {
+        @apply flex flex-col border border-opaquePurple rounded-2xl h-auto w-full p-4 bg-opaqueWhite dark:bg-opaqueBlack
+    }
+
+    .progress {
+        @apply z-[99] fixed left-0 right-0 h-[5px] bg-purple bottom-[1%]
+    }
+
+    .switch-container {
+        @apply h-[34px] rounded-full flex flex-row justify-between items-center;
+    }
+
+    .switch {
+        @apply bg-purple w-[60px] flex justify-start p-[2px] cursor-pointer rounded-full;
+    }
+
+    .switch[data-isOn="true"] {
+        @apply justify-end;
+    }
+
+    .handle {
+        @apply font-montserrat w-[30px] h-[30px] rounded-full flex justify-center items-center z-50;
+    }
+
+    .parallax {
+        @apply font-questrial overflow-hidden leading-[0.8] m-0 whitespace-nowrap flex flex-nowrap;
+        letter-spacing: -2px;
+    }
+
+    .parallax .scroller {
+        @apply uppercase flex whitespace-nowrap flex-nowrap;
+    }
+
+    .parallax span {
+        @apply block mr-[10px];
+    }
+
+    .scroller {
+        @apply will-change-[transform];
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.2);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: var(--color-purple);
+    }
+}
+
+@layer utilities {
+    .font-montserrat {
+        font-family: Montserrat, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    .font-questrial {
+        font-family: Questrial, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    .font-open {
+        font-family: Open, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-2px) rotate(3deg);
+    }
+    50% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    75% {
+        transform: translateY(2px) rotate(3deg);
+    }
+    100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+
+.invisible {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

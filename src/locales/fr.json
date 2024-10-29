@@ -1,0 +1,112 @@
+{
+  "discover": "Découvrir ce projet",
+  "home": "Profil",
+  "welcome": "Bienvenue",
+  "skills": "Compétences",
+  "interests": "Centres d'intérêts",
+  "achievements": "Réalisations",
+  "educations": "Formations",
+  "work_experience": "Expériences professionnelles",
+  "work_experience_1": "Expériences",
+  "work_experience_2": "professionnelles",
+  "profile": "Fort de 6 ans d'expérience comme chef d'équipe sur l'avion Boeing E3-F AWACS dans l'armée de l'air, je suis un professionnel méticuleux et dynamique.\n\nDésormais basé en Auvergne-Rhône-Alpes et récemment diplômé en développement web et mobile, je mets à profit mes compétences pour développer des solutions innovantes dans le domaine de l'IT.",
+  "job": "Développeur d'applications",
+  "learn_more": "En savoir plus",
+  "hide": "Cacher",
+  "what_did_i_do" : "Qu'est ce que j'ai fait sur ce projet ?",
+  "skills_list": {
+    "javascript": "JavaScript",
+    "react_native": "React / React Native avec PropTypes",
+    "css_frameworks": "CSS et Framework CSS : Tailwind, Bootstrap",
+    "ecommerce": "Conception de sites E-commerce avec Sylius et Symfony",
+    "docker": "Utilisation de Docker",
+    "graphql": "Consommation d’API GraphQL",
+    "rest_api": "Consommation d’API REST",
+    "git": "Gestion de code source avec Git",
+    "figma": "Conception d’interface utilisateur avec Figma",
+    "php": "Bases en PHP",
+    "node": "Bases en Node.js avec Express pour la création de back-end",
+    "expo": "Utilisation d'Expo pour créer des applications mobiles\net les publier sur les stores Android et Apple",
+    "rocket" :"Travail en équipe, dynamisme et autonomie"
+  },
+  "achievements_list": {
+    "swipeat": {
+      "resume": "SwipEat est une application mobile disponible sur iOS et Android dédiée au partage de recettes. Les utilisateurs peuvent publier leurs propres créations culinaires et suivre d'autres cuisiniers pour s'inspirer\n\nAu sein d'Odeven, j'ai développé cette application en utilisant React Native pour la partie mobile et React pour le back-office",
+      "content": "swipeat content",
+      "skill1": "Utilisation de React Native avec Expo pour l'application mobile, incluant notamment useContext pour la gestion d'état, le routage et l'authentification",
+      "skill2": "Mise en place d'une expérience utilisateur Scroll & Swipe, principalement avec React Native Reanimated",
+      "skill3": "Création de composants personnalisés sans utilisation de librairie",
+      "skill4": "Application headless : utilisation de Docker pour des microservices et intégration d'une API GraphQL avec ses hooks",
+      "skill5": "Gestion du code source et versioning avec GitLab, incluant l'utilisation de Git et des plateformes de développement Apple et Google",
+      "skill6": "Développement du back office avec React",
+      "skill7": "Utilisation de Figma pour concevoir le design du back office",
+      "skill8": "Implémentation de PropTypes",
+      "skill9": "Travail en méthode Agile SCRUM"
+    },
+    "heb": {
+      "resume": "Un site E-commerce développé avec Sylius, un framework Symfony dédié à la création de plateformes de commerce en ligne. Ce projet, réalisé en collaboration avec Odeven, a nécessité la création d'un module sur mesure permettant de configurer les différents produits\n\nDe plus, j'ai intégré un traducteur dans le back-office pour faciliter la traduction des informations en plusieurs langues",
+      "content": "heb content",
+      "skill1": "Projet réalisé avec Sylius, framework Symfony",
+      "skill2": "Utilisation de Twig",
+      "skill3": "Personnalisation des modèles, formulaires, etc., de Symfony et Sylius",
+      "skill4": "Utilisation et personnalisation de composants Sylius",
+      "skill5": "Création d'un module de produit personnalisé permettant à l'utilisateur de créer son produit",
+      "skill6": "Développement d'un plugin de traduction intégré avec l'API DeepL, permettant à l'administrateur de traduire les informations des produits en un clic",
+      "skill7": "Mise en place d'un clonage des produits",
+      "skill8": "Tunnel de paiement avec PayPal, par carte bancaire ou en plusieurs fois",
+      "skill9": "Utilisation de Tailwind",
+      "skill10": "Travail en méthode Agile SCRUM"
+    },
+    "pokemon": {
+      "title": "Mini-jeu Pokémon",
+      "resume": "Ce mini-jeu est un projet personnel encore en cours de développement, dont l'objectif est de deviner le nom des Pokémon présentés. Une fois le nom deviné, le joueur peut attraper le Pokémon en lançant une Pokéball. Si le Pokémon est attrapé, il est ajouté à notre Pokédex. Le défi est clair : Attrapez-les tous !\n\nCe mini-jeu est développé en React Native pour la partie mobile, tandis que Node.js avec Express est utilisé pour gérer l'authentification et la sauvegarde du Pokédex",
+      "content": "pokemon content",
+      "skill1": "Projet personnel avec React Native et Expo",
+      "skill2": "Développement d'un back-end avec Node.js et Express pour l'authentification et la sauvegarde des données",
+      "skill3": "Utilisation de MongoDB et Mongoose",
+      "skill4": "Création des maquettes avec Figma",
+      "skill5": "Utilisation de GestureHandler notamment pour le mini-jeu de capture du Pokémon",
+      "skill6": "Traduction de l'application en français et en anglais",
+      "skill7": "Consommation d'API Rest pour récupérer les informations des Pokémon",
+      "skill8": "Implémentation de PropTypes"
+    }
+  },
+  "experiences": {
+    "developer": {
+      "title": "Développeur web et mobile",
+      "task1": "Développement d’applications mobile et web sur mesure",
+      "task2": "Conception de sites e-commerce"
+    },
+    "network_technician": {
+      "title": "Technicien réseaux et Télécommunications",
+      "task1": "Mise en place de systèmes de vidéo protection et sécurité"
+    },
+    "air_force_technician": {
+      "title": "Technicien communication navigation et surveillance",
+      "task1": "Chef d’équipe encadrant de 4 à 6 personnes",
+      "task2": "Mise en service et maintenance du système de mission sur «AWACS» (avion de détection et de commandement aéroporté)"
+    },
+    "it_technician": {
+      "title": "Technicien informatique",
+      "task1": "Mise en œuvre et maintenance de réseaux et systèmes informatiques"
+    }
+  },
+  "educations_list": {
+    "bac_plus_3": {
+      "title": "BAC +3 - Concepteur Développeur d'applications",
+      "task1": "Formation en développement d'applications"
+    },
+    "major_promotion": {
+      "title": "Major de promotion en formation de spécialiste des systèmes de communication",
+      "task1": "Spécialisation en systèmes de communication, navigation et surveillance"
+    },
+    "bts": {
+      "title": "BTS Informatique de Gestion - Administrateur système",
+      "task1": "Formation en administration système et réseau"
+    },
+    "bac": {
+      "title": "Baccalauréat Sciences et Technique de l'Industrie - Génie électronique",
+      "task1": "Formation en électronique et technique"
+    }
+  }
+}
