@@ -75,7 +75,7 @@ function App() {
                 <header>
                     <Menu value={value} handleChange={handleChange}/>
                 </header>
-                <div className="flex-grow py-24">
+                <div className="flex-grow pb-24 pt-24 md:pt-0">
                     <div ref={homeRef} id="section-0" className="content-section md:py-0">
                         <EnteringDiv>
                             <Profile/>

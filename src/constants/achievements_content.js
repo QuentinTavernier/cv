@@ -70,6 +70,7 @@ export const achievements_content = [
             "achievements_list.pokemon.skill6",
             "achievements_list.pokemon.skill7",
             "achievements_list.pokemon.skill8",
+            "achievements_list.pokemon.skill9",
         ]
     },
 ];

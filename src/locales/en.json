@@ -68,7 +68,8 @@
       "skill5": "Use of GestureHandler for the Pokémon capture mini-game",
       "skill6": "Translation of the app into French and English",
       "skill7": "Consumption of Rest APIs to retrieve Pokémon information",
-      "skill8": "Implementation of PropTypes"
+      "skill8": "Setup of end-to-end testing",
+      "skill9": "Implementation of PropTypes"
     }
   },
   "experiences": {

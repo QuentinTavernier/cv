@@ -6,8 +6,9 @@ import './i18n/i18n';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import './tailwind.css';
 import {ThemeProvider} from "./context/ThemeProvider";
+
+import './tailwind.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
