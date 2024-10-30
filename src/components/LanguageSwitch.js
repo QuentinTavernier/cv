@@ -3,7 +3,6 @@ import React, {useState} from 'react';
 import {useTranslation} from 'react-i18next';
 
 import {IconComponent} from "./IconComponent";
-import {SpringLayoutTransitionDiv} from "./animations/SpringLayoutTransitionDiv";
 
 import {useTheme} from "../context/ThemeProvider";
 
@@ -12,7 +11,6 @@ export const LanguageSwitch = () => {
     const {darkMode} = useTheme()
 
     const currentLanguage = i18n.language;
-
     const [language, setLanguage] = useState(currentLanguage);
 
     const changeLanguage = () => {
@@ -23,25 +21,29 @@ export const LanguageSwitch = () => {
     };
 
     return (
-        <div className="switch-container bg-white dark:bg-black border border-opaquePurple ">
-            <div className="flex center-center px-2">
+        <div className="switch-container">
+            <div className="flex center-center pl-2 pr-1">
                 <IconComponent
                     icon="translate"
                     size="small"
                     color={darkMode ? "grey" : "beige"}
                 />
             </div>
-            <div className="switch border-0" data-isOn={language === "fr"} onClick={changeLanguage}>
-                <SpringLayoutTransitionDiv>
-                    <div className="handle bg-beige dark:bg-grey hover:opacity-80">
-                        <p className="p-text text-xs">
-                            {language.toUpperCase()}
-                        </p>
-                    </div>
-                </SpringLayoutTransitionDiv>
+            <div
+                className="switch"
+                onClick={changeLanguage}
+            >
+                <div
+                    className="handle"
+                    style={{
+                        transform: language === "fr" ? "translateX(17px)" : "translateX(0)"
+                    }}
+                >
+                    <p className="p-text text-xs !text-purple">
+                        {language.toUpperCase()}
+                    </p>
+                </div>
             </div>
         </div>
     );
 };
-
-

@@ -62,7 +62,7 @@ export const AchievementsCard = (props) => {
                     {expanded &&
                         <>
                             <div className="py-8 w-full">
-                                <p className="p-text text-xl mb-4">
+                                <p className="p-text mb-2">
                                     {t('what_did_i_do')}
                                 </p>
                                 <ListComponent
@@ -78,7 +78,7 @@ export const AchievementsCard = (props) => {
                         </>
                     }
                     <div
-                        className={`d-flex-col md:d-flex-row w-full mt-8 md:mt-16 ${expanded && link ? " start-end gap-4 md:between-center" : "end-center" }`}
+                        className={`d-flex-col md:d-flex-row w-full mt-8 md:mt-16 ${expanded && link ? " center-end gap-4 md:between-center" : "end-end" }`}
                     >
                         {expanded && link &&
                             <ButtonComponent
@@ -90,7 +90,7 @@ export const AchievementsCard = (props) => {
                         }
                         <button
                             onClick={onExpandClick}
-                            className="d-flex-row gap-2"
+                            className="d-flex-row gap-2 center-center"
                         >
                             <p className="p-text">
                                 {expanded ? t('hide') : t('learn_more')}

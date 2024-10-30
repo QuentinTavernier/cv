@@ -8,21 +8,21 @@ export const Profile = () => {
     const {t} = useTranslation();
 
     return (
-        <div className="d-flex-col md:d-flex-row w-full h-screen center-center">
+        <div className="d-flex-col md:d-flex-row w-full min-h-screen center-center">
             <div className="flex flex-1 justify-start md:justify-center">
                 <div
-                    className="relative p-2 bg-opaquePurple border border-purple h-fit w-3/4"
+                    className="relative p-2 bg-opaquePurple border border-purple h-fit w-3/4 scale-x-[-1]"
                     style={{borderRadius: '25%'}}
                 >
                     <img
                         src={require('../../assets/images/avatar-bg.webp')}
-                        className="relative h-auto w-full"
+                        className="relative h-full w-full"
                         style={{borderRadius: '25%'}}
                         alt="Avatar"
                     />
                     <img
                         src={require('../../assets/images/avatar.webp')}
-                        className="absolute h-auto w-full right-0 bottom-0"
+                        className="absolute h-full w-full right-0 bottom-0"
                         style={{borderRadius: '25%'}}
                         alt="Avatar"
                     />
@@ -45,7 +45,7 @@ export const Profile = () => {
                     level={2}
                     text={t('job')}
                 />
-                <p className="p-text">
+                <p className="p-text mb-2">
                     {t('profile')}
                 </p>
                 <SkillComponent/>

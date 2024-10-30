@@ -9,7 +9,6 @@ import Drawer from '@mui/material/Drawer';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import Box from '@mui/material/Box';
@@ -54,7 +53,12 @@ export const Menu = (props) => {
             bgcolor: 'var(--color-purple)',
             fontFamily: "'MontSerrat', sans-serif",
         },
-        iconButton: {
+        menuButton: {
+            padding: 0,
+            color:  "var(--color-purple) !important",
+        },
+        closeButton: {
+            padding: 0,
             color: darkMode ? "white" : "var(--color-blue)",
         },
         drawerBox: {
@@ -65,21 +69,14 @@ export const Menu = (props) => {
             bgcolor: darkMode ? "black" : "var(--color-beige)",
         },
         drawerHeader: {
+            padding: '10px 0',
             display: 'flex',
-            justifyContent: 'space-between',
+            justifyContent: 'flex-end',
             alignItems: 'center',
         },
         listItemButton: {
-            color: 'white',
             padding: 0,
-        },
-        listItemText: {
-            '& .MuiListItemText-primary': {
-                fontFamily: "'MontSerrat', sans-serif",
-                fontSize: "14px",
-                color: darkMode ? "white" : "var(--color-blue)",
-            },
-        },
+        }
     };
 
     const menuItems = [
@@ -123,13 +120,17 @@ export const Menu = (props) => {
             {/* Mobile Menu */}
             <Box className="md:hidden w-full flex between-center px-4 py-2">
                 <Avatar sx={styles.avatar}>QT</Avatar>
-                <IconButton
-                    onClick={() => setIsDrawerOpen(true)}
-                    sx={styles.iconButton}
-                    aria-label="open menu"
-                >
-                    <MenuIcon/>
-                </IconButton>
+                <div className="d-flex-row center-center gap-4">
+                    <LanguageSwitch/>
+                    <ThemeSwitch/>
+                    <IconButton
+                        onClick={() => setIsDrawerOpen(true)}
+                        sx={styles.menuButton}
+                        aria-label="open menu"
+                    >
+                        <MenuIcon/>
+                    </IconButton>
+                </div>
             </Box>
 
             {/* Mobile Drawer */}
@@ -140,11 +141,9 @@ export const Menu = (props) => {
             >
                 <Box sx={styles.drawerBox}>
                     <Box sx={styles.drawerHeader}>
-                        <LanguageSwitch/>
-                        <ThemeSwitch/>
                         <IconButton
                             onClick={() => setIsDrawerOpen(false)}
-                            sx={styles.iconButton}
+                            sx={styles.closeButton}
                         >
                             <CloseIcon/>
                         </IconButton>
@@ -154,15 +153,11 @@ export const Menu = (props) => {
                             <ListItem key={item.value} disablePadding>
                                 <ListItemButton
                                     onClick={() => handleMenuItemClick(item.value)}
-                                    sx={{
-                                        ...styles.listItemButton,
-                                        color: value === item.value ? 'var(--purple)' : 'white',
-                                    }}
+                                    sx={styles.listItemButton}
                                 >
-                                    <ListItemText
-                                        primary={item.label}
-                                        sx={styles.listItemText}
-                                    />
+                                    <p className={`p-text hover:opacity-80 font-montserrat py-2 ${item.value === value ? "!text-purple" : "dark:text-white text-blue"}`}>
+                                        {item.label}
+                                    </p>
                                 </ListItemButton>
                             </ListItem>
                         ))}

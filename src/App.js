@@ -29,7 +29,7 @@ function App() {
     const handleChange = (event, newValue) => {
         setValue(newValue);
         const sectionRefs = [homeRef, achievementsRef, workExperiencesRef, educationRef];
-        sectionRefs[newValue].current.scrollIntoView({behavior: 'smooth'});
+        sectionRefs[newValue].current.scrollIntoView({behavior: 'smooth', block : "start"});
     };
 
     useEffect(() => {
@@ -57,7 +57,7 @@ function App() {
                 });
             },
             {
-                threshold: 0.1
+                threshold: 0.2
             }
         );
 
@@ -75,8 +75,8 @@ function App() {
                 <header>
                     <Menu value={value} handleChange={handleChange}/>
                 </header>
-                <div className="flex-grow pb-24 pt-24 md:pt-0">
-                    <div ref={homeRef} id="section-0" className="content-section md:py-0">
+                <div className="flex-grow">
+                    <div ref={homeRef} id="section-0" className="content-section md:pt-0">
                         <EnteringDiv>
                             <Profile/>
                         </EnteringDiv>
