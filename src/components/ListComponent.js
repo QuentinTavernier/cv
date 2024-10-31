@@ -19,6 +19,9 @@ export const ListComponent = (props) => {
         },
         divider: {
             borderColor: darkMode ? "white" : "var(--color-blue)"
+        },
+        listItem: {
+            padding : "1rem 0"
         }
     };
 
@@ -29,7 +32,7 @@ export const ListComponent = (props) => {
                     {index !== 0 &&
                         <Divider component="li" sx={styles.divider}/>
                     }
-                    <ListItem className="flex center-center gap-2">
+                    <ListItem style={styles.listItem} className="flex center-center gap-2 p-0">
                         <IconComponent
                             icon="radio_button_checked"
                             size="small"

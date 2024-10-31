@@ -61,7 +61,7 @@ export const AchievementsCard = (props) => {
                     </div>
                     {expanded &&
                         <>
-                            <div className="py-8 w-full">
+                            <div className="py-6 w-full">
                                 <p className="p-text mb-2">
                                     {t('what_did_i_do')}
                                 </p>

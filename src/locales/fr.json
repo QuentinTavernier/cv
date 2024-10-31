@@ -10,7 +10,7 @@
   "work_experience_1": "Expériences",
   "work_experience_2": "professionnelles",
   "profile": "Fort de 6 ans d'expérience comme chef d'équipe sur l'avion Boeing E3-F AWACS dans l'armée de l'air, je suis un professionnel méticuleux et dynamique.\n\nDésormais basé en Auvergne-Rhône-Alpes et récemment diplômé en développement web et mobile, je mets à profit mes compétences pour développer des solutions innovantes dans le domaine de l'IT.",
-  "job": "Développeur d'applications",
+  "job": "Développeur Web et Mobile",
   "learn_more": "En savoir plus",
   "hide": "Cacher",
   "what_did_i_do" : "Qu'est ce que j'ai fait sur ce projet ?",
@@ -94,20 +94,16 @@
   },
   "educations_list": {
     "bac_plus_3": {
-      "title": "BAC +3 - Concepteur Développeur d'applications",
-      "task1": "Formation en développement d'applications"
+      "title": "BAC +3 - Concepteur Développeur d'applications"
     },
     "major_promotion": {
-      "title": "Major de promotion en formation de spécialiste des systèmes de communication",
-      "task1": "Spécialisation en systèmes de communication, navigation et surveillance"
+      "title": "Major de promotion en formation de spécialiste des systèmes de communication"
     },
     "bts": {
-      "title": "BTS Informatique de Gestion - Administrateur système",
-      "task1": "Formation en administration système et réseau"
+      "title": "BTS Informatique de Gestion - Administrateur système"
     },
     "bac": {
-      "title": "Baccalauréat Sciences et Technique de l'Industrie - Génie électronique",
-      "task1": "Formation en électronique et technique"
+      "title": "Baccalauréat Sciences et Technique de l'Industrie - Génie électronique"
     }
   }
 }

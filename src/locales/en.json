@@ -10,7 +10,7 @@
   "work_experience_1": "Work",
   "work_experience_2": "Experiences",
   "profile": "With 6 years of experience as a team leader on the Boeing E3-F AWACS in the air force, I am a meticulous and dynamic professional.\n\nNow based in Auvergne-Rhône-Alpes and recently graduated in web and mobile development, I leverage my skills to develop innovative solutions in the IT field.",
-  "job": "Application Developer",
+  "job": "Web and Mobile Developer",
   "learn_more": "Learn more",
   "hide": "Hide",
   "what_did_i_do": "What did I do on this project ?",
@@ -94,20 +94,16 @@
   },
   "educations_list": {
     "bac_plus_3": {
-      "title": "BAC +3 - Application Developer",
-      "task1": "Application development training"
+      "title": "BAC +3 - Application Developer"
     },
     "major_promotion": {
-      "title": "Major of promotion in communication systems specialist training",
-      "task1": "Specialization in communication, navigation, and surveillance systems"
+      "title": "Major of promotion in communication systems specialist training"
     },
     "bts": {
-      "title": "BTS Management - System Administrator",
-      "task1": "System and network administration training"
+      "title": "BTS Management - System Administrator"
     },
     "bac": {
-      "title": "Scientific and Technical Baccalaureate - Electronics",
-      "task1": "Electronics and technical training"
+      "title": "Scientific and Technical Baccalaureate - Electronics"
     }
   }
 }

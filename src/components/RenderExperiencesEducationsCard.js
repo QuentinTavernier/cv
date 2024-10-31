@@ -15,7 +15,7 @@ export const RenderExperiencesEducationsCard = (item) => {
 
     return (
         <ScrollVisibilityDiv className="card">
-            <div className="d-flex-row items-center gap-2">
+            <div className="d-flex-row start-center gap-2">
                 <IconComponent
                     icon="event"
                     color={iconColor}
@@ -26,7 +26,7 @@ export const RenderExperiencesEducationsCard = (item) => {
                     fontWeight="bold"
                 />
             </div>
-            <div className="d-flex-row items-center gap-2 mb-4">
+            <div className="d-flex-row start-center gap-2 mb-4">
                 <IconComponent
                     icon="place"
                     color={iconColor}
