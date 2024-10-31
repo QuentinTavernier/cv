@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.7296eacb.css",
-    "main.js": "/cv/static/js/main.4dc1f7a6.js",
+    "main.css": "/cv/static/css/main.b746dd3a.css",
+    "main.js": "/cv/static/js/main.ab43c8e7.js",
     "static/js/453.7db3baaf.chunk.js": "/cv/static/js/453.7db3baaf.chunk.js",
     "static/media/swipeat_1.webp": "/cv/static/media/swipeat_1.fa465614ffac5471c064.webp",
     "static/media/avatar-bg.webp": "/cv/static/media/avatar-bg.ba9f2eb1775c11700366.webp",
@@ -24,6 +24,7 @@
     "static/media/node.svg": "/cv/static/media/node.502737ea1f44b9be4170.svg",
     "static/media/php.svg": "/cv/static/media/php.8a27be18b7a749ae7a08.svg",
     "static/media/figma.svg": "/cv/static/media/figma.e7d94b36e2f13bc9329d.svg",
+    "static/media/logo.webp": "/cv/static/media/logo.1c5e7a1ef3b1986aa9a4.webp",
     "static/media/symfony.svg": "/cv/static/media/symfony.e7ed7f29e3e91850f3fb.svg",
     "index.html": "/cv/index.html",
     "static/media/rocket.svg": "/cv/static/media/rocket.23435ce73af8d44ea19c.svg",
@@ -34,12 +35,12 @@
     "static/media/css.svg": "/cv/static/media/css.da6606c9eb4da9a5be62.svg",
     "static/media/expo.svg": "/cv/static/media/expo.667e526d07d5f5bb98b5.svg",
     "static/media/icons8-linkedin.svg": "/cv/static/media/icons8-linkedin.e9b8df20d092b20af087.svg",
-    "main.7296eacb.css.map": "/cv/static/css/main.7296eacb.css.map",
-    "main.4dc1f7a6.js.map": "/cv/static/js/main.4dc1f7a6.js.map",
+    "main.b746dd3a.css.map": "/cv/static/css/main.b746dd3a.css.map",
+    "main.ab43c8e7.js.map": "/cv/static/js/main.ab43c8e7.js.map",
     "453.7db3baaf.chunk.js.map": "/cv/static/js/453.7db3baaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7296eacb.css",
-    "static/js/main.4dc1f7a6.js"
+    "static/css/main.b746dd3a.css",
+    "static/js/main.ab43c8e7.js"
   ]
 }
