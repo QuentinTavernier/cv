@@ -12,8 +12,8 @@ import ListItemButton from '@mui/material/ListItemButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import Box from '@mui/material/Box';
-import {Avatar} from "@mui/material";
 
+import {Logo} from "./Logo";
 import {LanguageSwitch} from "./LanguageSwitch";
 import {ThemeSwitch} from "./ThemeSwitch";
 
@@ -49,13 +49,9 @@ export const Menu = (props) => {
                 width: '250px',
             }
         },
-        avatar: {
-            bgcolor: 'var(--color-purple)',
-            fontFamily: "'MontSerrat', sans-serif",
-        },
         menuButton: {
             padding: 0,
-            color:  "var(--color-purple) !important",
+            color: "var(--color-purple) !important",
         },
         closeButton: {
             padding: 0,
@@ -98,9 +94,7 @@ export const Menu = (props) => {
         >
             {/* Desktop Menu */}
             <Box className="container hidden md:flex w-full between-center py-2">
-                <div className="d-flex-row center-center">
-                    <Avatar sx={styles.avatar}>QT</Avatar>
-                </div>
+                <Logo/>
                 <div className="flex end-center grow gap-4">
                     <Tabs
                         value={value}
@@ -118,8 +112,8 @@ export const Menu = (props) => {
             </Box>
 
             {/* Mobile Menu */}
-            <Box className="md:hidden w-full flex between-center px-4 py-2">
-                <Avatar sx={styles.avatar}>QT</Avatar>
+            <Box className="md:hidden w-full flex between-center px-4 py-3">
+                <Logo/>
                 <div className="d-flex-row center-center gap-4">
                     <LanguageSwitch/>
                     <ThemeSwitch/>
